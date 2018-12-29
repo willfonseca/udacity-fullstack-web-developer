@@ -1,12 +1,13 @@
 import webbrowser
 
+
 class Movie():
-    # self is the object that will be created when instantiated
+    # this is a comment for keep in mind the learning - self is the object that will be created when instantiated
     def __init__(self,
-                movie_title,
-                movie_storyline,
-                poster_image,
-                trailer_url):
+                 movie_title,
+                 movie_storyline,
+                 poster_image,
+                 trailer_url):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
