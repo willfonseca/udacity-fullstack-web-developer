@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You must have installed Python 2.7 or sup in your machine.
 
-[For more information, see](https://www.python.org/){:target="_blank"}
+[For more information, see](https://www.python.org/)
 
 ## Running the Project
 
