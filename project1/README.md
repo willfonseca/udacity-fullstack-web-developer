@@ -1,6 +1,6 @@
 # Project 1 - Site trailer de filmes
 
-First Project of course FullStack Web Developers - Udemy
+First Project of course FullStack Web Developers - Udacity
 
 ## Getting Started
 
