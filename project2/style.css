@@ -1,0 +1,120 @@
+
+ *{
+  font-family: 'Titillium Web', sans-serif;
+  font-style: inherit;
+  margin: 0px auto;
+  box-sizing: border-box;
+  position: relative;
+ }
+
+ .header_main{
+   height: 181px;
+   border-bottom:  5px solid #7d97ad;
+   padding-top: 0px;
+   margin-right: 7px;
+}
+ .container{
+  width: 60%;
+  margin: 0px auto;
+}
+
+.text_header{
+  /* margin-right: 0px; */
+  float: right;
+  top: 31%;
+  font-size: 20px;
+  text-align: right;
+}
+
+.img_header{
+  top: 64px;
+  width: 78px;
+}
+
+.image{
+  height: 405px;
+  background-image: url("images/main_image1_network.jpg");
+  background-repeat: no-repeat;
+}
+
+.carrossel{
+  margin-right: 10px;
+  top: 34px;
+  box-shadow: 1px 1px 1px 1px #57565a;
+}
+
+.portifolio{
+  top: 60px;
+  /* padding-left: 0px; */
+}
+.content{
+  float: left;
+  box-shadow: 0 0 7px rgba(0,0,0,.15);
+  width: 32.8%;
+  margin-right: 0.5%;
+
+}
+
+.text_centralized{
+  text-align: center;
+}
+
+.content:hover{
+  box-shadow: 1px 1px 7px rgba(108, 110, 209, 0.75);
+}
+
+
+.content:last-child {/* padding-right: 0 !important; */}
+
+
+.img_portifolio{
+  width: 100%;
+}
+
+@media screen and (max-width:980px){
+
+  .text_header{
+    display: inline-block;
+    margin-right: 0px;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .container{
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width:980px){
+
+  .text_header{
+    display:inline-block;
+    margin-right: 0px;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .container{
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width:680px){
+
+  .image{
+    height: 250px;
+  }
+  .img_header{
+    width: 56px;
+  }
+  .content{
+    width:100%
+  }
+  .header_main{
+    height: 150px;
+  }
+}
