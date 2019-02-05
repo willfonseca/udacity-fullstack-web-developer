@@ -1,8 +1,10 @@
 
+@import "https://fonts.googleapis.com/css?family=Titillium+Web:200";
+
  *{
   font-family: 'Titillium Web', sans-serif;
   font-style: inherit;
-  margin: 0px auto;
+  margin: 0 auto;
   box-sizing: border-box;
   position: relative;
  }
@@ -10,17 +12,17 @@
  .header_main{
    height: 181px;
    border-bottom:  5px solid #7d97ad;
-   padding-top: 0px;
+   padding-top: 0;
    margin-right: 7px;
 }
  .container{
   width: 60%;
-  margin: 0px auto;
+  margin: 0 auto;
   background-color: #f8f4ff60;
 }
 
 .text_header{
-  /* margin-right: 0px; */
+  /* margin-right: 0; */
   float: right;
   top: 31%;
   font-size: 20px;
@@ -46,7 +48,7 @@
 
 .portifolio{
   top: 60px;
-  /* padding-left: 0px; */
+  /* padding-left: 0; */
 }
 .content{
   float: left;
@@ -65,7 +67,7 @@
 }
 
 
-.content:last-child {/* padding-right: 0 !important; */}
+.content:last-child { padding-right: 0; }
 
 
 .img_portifolio{
@@ -76,7 +78,7 @@
 
   .text_header{
     display: inline-block;
-    margin-right: 0px;
+    margin-right: 0;
     float: right;
     font-size: 14px;
     text-align: right;
@@ -117,5 +119,34 @@
   }
   .header_main{
     height: 150px;
+  }
+}
+
+@media screen and (max-width:450px){
+
+  .image{
+    height: 100px;
+  }
+  .img_header{
+    width: 16%;
+    top: 32%;
+  }
+  .content{
+    width:100%
+  }
+  .header_main{
+    height: 113px;
+  }
+
+  .text_header{
+    font-size: 70%;
+  }
+
+  .carrossel {
+    margin-right: 5px;
+    top: 15px;
+  }
+  .portifolio {
+    top: 30px;
   }
 }
